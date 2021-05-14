@@ -1,0 +1,40 @@
+{
+  "authoringRegion": "westus",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": true,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "07e5ea12-3cdd-4a5e-94cd-de1f1cb1a119",
+      "authoringKey": "cac3b058e40b4daeb05090d3611b2102",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "VirtualAssistantChatboten-us_General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Faq",
+      "includePrompts": true,
+      "kbId": "28fac019-48ce-448c-8933-872d88b8b722",
+      "subscriptionKey": "75177a392b0541c6a73225ff055103c7",
+      "type": "qna",
+      "name": "Faq",
+      "id": "2"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2"
+  ],
+  "appId": "2086a91f-a8cc-49e3-928c-5e0df3318b69",
+  "authoringKey": "cac3b058e40b4daeb05090d3611b2102",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "VirtualAssistantChatboten-us_Dispatch"
+}
